@@ -1,0 +1,44 @@
+name: hotelsgo_task
+description: Hotelsgo Task.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  flutter_screenutil:
+  bloc:
+  flutter_bloc:
+  dio:
+  cached_network_image:
+  connectivity_plus:
+  lottie:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.3.5
+
+flutter_native_splash:
+  color: "#d7d7d7"
+  image: assets/splash_ic.png
+  android: true
+  ios: true
+  forceDarkAllowed: false
+  fullscreen: true
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
