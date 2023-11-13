@@ -36,7 +36,6 @@ class MyApp extends StatelessWidget {
           HotelCubit(connectivity: connectivity)..getHotelsList(),
       child: BlocBuilder<HotelCubit, HotelState>(
         builder: (context, state) {
-          print('State is: $state');
           return ScreenUtilInit(
             designSize: const Size(360, 780),
             minTextAdapt: true,
